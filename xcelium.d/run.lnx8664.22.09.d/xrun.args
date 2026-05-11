@@ -1,0 +1,23 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-clean
+-64bit
+-v200x
+-v93
+-uvm
+-sv
+frontend/Util_package.vhd
+frontend/somador.vhd
+-f
+verification/filelist.f
+-top
+somador_top
+-access
++rwc
+-exit
+-coverage
+u
+-covoverwrite
++VETOR_PATH=/home/u32br/rocca/projetos/somador/frontend/vetor.txt

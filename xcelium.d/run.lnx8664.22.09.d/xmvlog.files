@@ -1,0 +1,14 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/home/u32br/rocca/projetos/somador/verification/somador_if.sv
+/home/u32br/rocca/projetos/somador/verification/somador_item.sv
+/home/u32br/rocca/projetos/somador/verification/somador_seq.sv
+/home/u32br/rocca/projetos/somador/verification/somador_driver.sv
+/home/u32br/rocca/projetos/somador/verification/somador_monitor.sv
+/home/u32br/rocca/projetos/somador/verification/somador_agent.sv
+/home/u32br/rocca/projetos/somador/verification/somador_cov.sv
+/home/u32br/rocca/projetos/somador/verification/somador_env.sv
+/home/u32br/rocca/projetos/somador/verification/somador_test.sv
+/home/u32br/rocca/projetos/somador/verification/somador_top.sv

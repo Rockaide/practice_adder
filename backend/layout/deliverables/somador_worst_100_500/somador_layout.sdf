@@ -1,0 +1,393 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "somador")
+  (DATE "Mon May  4 12:49:31 2026")
+  (VENDOR "Cadence Design Systems, Inc.")
+  (PROGRAM "Innovus")
+  (VERSION "v25.13-s088_1 ((64bit) 03/26/2026 12:37 (Linux 4.18.0-305.el8.x86_64))")
+  (DIVIDER /)
+  (VOLTAGE 0.900000::0.900000)
+  (PROCESS "1.000000::1.000000")
+  (TEMPERATURE 125.000000::125.000000)
+  (TIMESCALE 1.0 ns)
+
+  (CELL
+    (CELLTYPE  "somador")
+    (INSTANCE)
+      (DELAY
+	(ABSOLUTE
+	(INTERCONNECT CTS_cdb_buf_00009/Y sum_temp_reg\[8\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_cdb_buf_00009/Y sum_temp_reg\[7\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_cdb_buf_00009/Y sum_temp_reg\[6\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_cdb_buf_00009/Y sum_temp_reg\[5\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_cdb_buf_00009/Y sum_temp_reg\[4\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_cdb_buf_00009/Y sum_temp_reg\[3\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_cdb_buf_00009/Y sum_temp_reg\[2\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_cdb_buf_00009/Y sum_temp_reg\[1\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_cdb_buf_00009/Y sum_temp_reg\[0\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT clk CTS_cdb_buf_00009/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst_n sum_temp_reg\[8\]/RN  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst_n sum_temp_reg\[7\]/RN  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst_n sum_temp_reg\[6\]/RN  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst_n sum_temp_reg\[5\]/RN  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst_n sum_temp_reg\[4\]/RN  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst_n sum_temp_reg\[3\]/RN  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst_n sum_temp_reg\[2\]/RN  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst_n sum_temp_reg\[1\]/RN  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst_n sum_temp_reg\[0\]/RN  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT carry_i g606__3680/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT a_i[7] g592__2398/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT a_i[6] g594__5107/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT a_i[5] g596__6260/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT a_i[4] g598__4319/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT a_i[3] g600__8428/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT a_i[2] g602__5526/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT a_i[1] g604__6783/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT a_i[0] g606__3680/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT b_i[7] g592__2398/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT b_i[6] g594__5107/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT b_i[5] g596__6260/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT b_i[4] g598__4319/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT b_i[3] g600__8428/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT b_i[2] g602__5526/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT b_i[1] g604__6783/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT b_i[0] g606__3680/CI  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT sum_temp_reg\[8\]/Q carry_o  (0.001::0.001) (0.001::0.001))
+	(INTERCONNECT sum_temp_reg\[7\]/Q sum_o[7]  (0.001::0.001) (0.001::0.001))
+	(INTERCONNECT sum_temp_reg\[6\]/Q sum_o[6]  (0.001::0.001) (0.001::0.001))
+	(INTERCONNECT sum_temp_reg\[5\]/Q sum_o[5]  (0.001::0.001) (0.001::0.001))
+	(INTERCONNECT sum_temp_reg\[4\]/Q sum_o[4]  (0.001::0.001) (0.001::0.001))
+	(INTERCONNECT sum_temp_reg\[3\]/Q sum_o[3]  (0.001::0.001) (0.001::0.001))
+	(INTERCONNECT sum_temp_reg\[2\]/Q sum_o[2]  (0.001::0.001) (0.001::0.001))
+	(INTERCONNECT sum_temp_reg\[1\]/Q sum_o[1]  (0.001::0.001) (0.001::0.001))
+	(INTERCONNECT sum_temp_reg\[0\]/Q sum_o[0]  (0.001::0.001) (0.001::0.001))
+	(INTERCONNECT g606__3680/CO g604__6783/CI  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g606__3680/S sum_temp_reg\[0\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g604__6783/CO g602__5526/CI  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g604__6783/S sum_temp_reg\[1\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g602__5526/CO g600__8428/CI  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g602__5526/S sum_temp_reg\[2\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g600__8428/CO g598__4319/CI  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g600__8428/S sum_temp_reg\[3\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g598__4319/CO g596__6260/CI  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g598__4319/S sum_temp_reg\[4\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g596__6260/CO g594__5107/CI  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g596__6260/S sum_temp_reg\[5\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g594__5107/CO g592__2398/CI  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g594__5107/S sum_temp_reg\[6\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g592__2398/CO sum_temp_reg\[8\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g592__2398/S sum_temp_reg\[7\]/D  (0.000::0.000) (0.000::0.000))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUFX2")
+    (INSTANCE  CTS_cdb_buf_00009)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.095::0.095) (0.091::0.091))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX8")
+    (INSTANCE  sum_temp_reg\[8\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.147::0.147))
+	(IOPATH CK Q  (0.386::0.386) (0.373::0.373))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.094::0.094))
+	(HOLD (posedge RN) (posedge CK) (0.114::0.114))
+	(RECOVERY (posedge RN) (posedge CK) (0.000::0.000))
+	(SETUPHOLD (posedge D) (posedge CK) (0.121::0.121) (-0.063::-0.063))
+	(SETUPHOLD (negedge D) (posedge CK) (0.049::0.049) (0.035::0.035))
+	(WIDTH (posedge CK) (0.254::0.254))
+	(WIDTH (negedge CK) (0.249::0.249))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX8")
+    (INSTANCE  sum_temp_reg\[7\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.148::0.148))
+	(IOPATH CK Q  (0.386::0.386) (0.373::0.373))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.094::0.094))
+	(HOLD (posedge RN) (posedge CK) (0.114::0.114))
+	(RECOVERY (posedge RN) (posedge CK) (0.000::0.000))
+	(SETUPHOLD (posedge D) (posedge CK) (0.121::0.121) (-0.058::-0.058))
+	(SETUPHOLD (negedge D) (posedge CK) (0.048::0.048) (0.038::0.038))
+	(WIDTH (posedge CK) (0.254::0.254))
+	(WIDTH (negedge CK) (0.249::0.249))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDFX1")
+    (INSTANCE  g592__2398)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A S  (0.386::0.393) (0.331::0.426))
+	(IOPATH A CO  (0.319::0.319) (0.266::0.266))
+	(IOPATH B S  (0.385::0.397) (0.319::0.414))
+	(IOPATH B CO  (0.311::0.311) (0.265::0.265))
+	(IOPATH CI S  (0.271::0.303) (0.215::0.283))
+	(IOPATH CI CO  (0.204::0.204) (0.193::0.193))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX8")
+    (INSTANCE  sum_temp_reg\[6\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.148::0.148))
+	(IOPATH CK Q  (0.386::0.386) (0.373::0.373))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.094::0.094))
+	(HOLD (posedge RN) (posedge CK) (0.114::0.114))
+	(RECOVERY (posedge RN) (posedge CK) (0.000::0.000))
+	(SETUPHOLD (posedge D) (posedge CK) (0.125::0.125) (-0.062::-0.062))
+	(SETUPHOLD (negedge D) (posedge CK) (0.052::0.052) (0.034::0.034))
+	(WIDTH (posedge CK) (0.254::0.254))
+	(WIDTH (negedge CK) (0.249::0.249))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDFX1")
+    (INSTANCE  g594__5107)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A S  (0.391::0.397) (0.336::0.432))
+	(IOPATH A CO  (0.333::0.333) (0.286::0.286))
+	(IOPATH B S  (0.389::0.401) (0.325::0.420))
+	(IOPATH B CO  (0.325::0.325) (0.285::0.285))
+	(IOPATH CI S  (0.271::0.302) (0.216::0.284))
+	(IOPATH CI CO  (0.201::0.201) (0.191::0.191))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX8")
+    (INSTANCE  sum_temp_reg\[5\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.149::0.149))
+	(IOPATH CK Q  (0.387::0.387) (0.374::0.374))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.094::0.094))
+	(HOLD (posedge RN) (posedge CK) (0.114::0.114))
+	(RECOVERY (posedge RN) (posedge CK) (0.000::0.000))
+	(SETUPHOLD (posedge D) (posedge CK) (0.121::0.121) (-0.058::-0.058))
+	(SETUPHOLD (negedge D) (posedge CK) (0.048::0.048) (0.038::0.038))
+	(WIDTH (posedge CK) (0.254::0.254))
+	(WIDTH (negedge CK) (0.249::0.249))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDFX1")
+    (INSTANCE  g596__6260)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A S  (0.387::0.393) (0.331::0.426))
+	(IOPATH A CO  (0.327::0.327) (0.280::0.280))
+	(IOPATH B S  (0.385::0.397) (0.319::0.414))
+	(IOPATH B CO  (0.319::0.319) (0.279::0.279))
+	(IOPATH CI S  (0.265::0.296) (0.209::0.277))
+	(IOPATH CI CO  (0.194::0.194) (0.182::0.182))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX8")
+    (INSTANCE  sum_temp_reg\[4\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.148::0.148))
+	(IOPATH CK Q  (0.386::0.386) (0.373::0.373))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.094::0.094))
+	(HOLD (posedge RN) (posedge CK) (0.114::0.114))
+	(RECOVERY (posedge RN) (posedge CK) (0.000::0.000))
+	(SETUPHOLD (posedge D) (posedge CK) (0.126::0.126) (-0.063::-0.063))
+	(SETUPHOLD (negedge D) (posedge CK) (0.053::0.053) (0.034::0.034))
+	(WIDTH (posedge CK) (0.254::0.254))
+	(WIDTH (negedge CK) (0.249::0.249))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDFX1")
+    (INSTANCE  g598__4319)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A S  (0.392::0.398) (0.338::0.433))
+	(IOPATH A CO  (0.325::0.325) (0.278::0.278))
+	(IOPATH B S  (0.390::0.403) (0.326::0.421))
+	(IOPATH B CO  (0.317::0.317) (0.277::0.277))
+	(IOPATH CI S  (0.273::0.304) (0.217::0.285))
+	(IOPATH CI CO  (0.194::0.194) (0.183::0.183))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX8")
+    (INSTANCE  sum_temp_reg\[3\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.148::0.148))
+	(IOPATH CK Q  (0.387::0.387) (0.374::0.374))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.094::0.094))
+	(HOLD (posedge RN) (posedge CK) (0.114::0.114))
+	(RECOVERY (posedge RN) (posedge CK) (0.000::0.000))
+	(SETUPHOLD (posedge D) (posedge CK) (0.124::0.124) (-0.062::-0.062))
+	(SETUPHOLD (negedge D) (posedge CK) (0.052::0.052) (0.035::0.035))
+	(WIDTH (posedge CK) (0.254::0.254))
+	(WIDTH (negedge CK) (0.249::0.249))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDFX1")
+    (INSTANCE  g600__8428)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A S  (0.391::0.397) (0.336::0.431))
+	(IOPATH A CO  (0.328::0.328) (0.280::0.280))
+	(IOPATH B S  (0.389::0.401) (0.324::0.419))
+	(IOPATH B CO  (0.320::0.320) (0.280::0.280))
+	(IOPATH CI S  (0.269::0.300) (0.213::0.281))
+	(IOPATH CI CO  (0.194::0.194) (0.183::0.183))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX8")
+    (INSTANCE  sum_temp_reg\[2\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.149::0.149))
+	(IOPATH CK Q  (0.387::0.387) (0.374::0.374))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.094::0.094))
+	(HOLD (posedge RN) (posedge CK) (0.114::0.114))
+	(RECOVERY (posedge RN) (posedge CK) (0.000::0.000))
+	(SETUPHOLD (posedge D) (posedge CK) (0.121::0.121) (-0.059::-0.059))
+	(SETUPHOLD (negedge D) (posedge CK) (0.048::0.048) (0.038::0.038))
+	(WIDTH (posedge CK) (0.254::0.254))
+	(WIDTH (negedge CK) (0.249::0.249))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDFX1")
+    (INSTANCE  g602__5526)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A S  (0.387::0.393) (0.331::0.427))
+	(IOPATH A CO  (0.325::0.325) (0.277::0.277))
+	(IOPATH B S  (0.385::0.397) (0.320::0.415))
+	(IOPATH B CO  (0.317::0.317) (0.276::0.276))
+	(IOPATH CI S  (0.264::0.295) (0.208::0.276))
+	(IOPATH CI CO  (0.191::0.191) (0.178::0.178))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX8")
+    (INSTANCE  sum_temp_reg\[1\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.148::0.148))
+	(IOPATH CK Q  (0.387::0.387) (0.373::0.373))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.094::0.094))
+	(HOLD (posedge RN) (posedge CK) (0.114::0.114))
+	(RECOVERY (posedge RN) (posedge CK) (0.000::0.000))
+	(SETUPHOLD (posedge D) (posedge CK) (0.125::0.125) (-0.062::-0.062))
+	(SETUPHOLD (negedge D) (posedge CK) (0.052::0.052) (0.035::0.035))
+	(WIDTH (posedge CK) (0.254::0.254))
+	(WIDTH (negedge CK) (0.249::0.249))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDFX1")
+    (INSTANCE  g604__6783)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A S  (0.383::0.389) (0.323::0.420))
+	(IOPATH A CO  (0.324::0.324) (0.276::0.276))
+	(IOPATH B S  (0.381::0.393) (0.311::0.408))
+	(IOPATH B CO  (0.316::0.316) (0.275::0.275))
+	(IOPATH CI S  (0.275::0.306) (0.219::0.288))
+	(IOPATH CI CO  (0.194::0.194) (0.182::0.182))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX8")
+    (INSTANCE  sum_temp_reg\[0\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.150::0.150))
+	(IOPATH CK Q  (0.388::0.388) (0.375::0.375))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.094::0.094))
+	(HOLD (posedge RN) (posedge CK) (0.114::0.114))
+	(RECOVERY (posedge RN) (posedge CK) (0.000::0.000))
+	(SETUPHOLD (posedge D) (posedge CK) (0.118::0.118) (-0.056::-0.056))
+	(SETUPHOLD (negedge D) (posedge CK) (0.044::0.044) (0.041::0.041))
+	(WIDTH (posedge CK) (0.254::0.254))
+	(WIDTH (negedge CK) (0.249::0.249))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDFX1")
+    (INSTANCE  g606__3680)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A S  (0.383::0.389) (0.327::0.422))
+	(IOPATH A CO  (0.328::0.328) (0.281::0.281))
+	(IOPATH B S  (0.382::0.394) (0.315::0.410))
+	(IOPATH B CO  (0.320::0.320) (0.280::0.280))
+	(IOPATH CI S  (0.364::0.386) (0.292::0.382))
+	(IOPATH CI CO  (0.307::0.307) (0.278::0.278))
+	)
+      )
+  )
+)

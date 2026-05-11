@@ -1,0 +1,33 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-INPUT
+"@source /home/u32br/tools/cadence/installs/XCELIUM2209/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl"
++VETOR_PATH=/home/u32br/rocca/projetos/somador/frontend/vetor.txt
+-uvmhome
+/home/u32br/tools/cadence/installs/XCELIUM2209/tools/methodology/UVM/CDNS-1.1d
+-sv_lib
+/home/u32br/tools/cadence/installs/XCELIUM2209/tools/methodology/UVM/CDNS-1.1d/additions/sv/lib/64bit/libuvmpli.so
+-EXIT
+-COVOVERWRITE
+-MESSAGES
+-RUN
+-SV_LIB
+/home/u32br/tools/cadence/installs/XCELIUM2209/tools/methodology/UVM/CDNS-1.1d/additions/sv/lib/64bit/libuvmdpi.so
++EMGRLOG
+xrun.log
+-XLSTIME
+1778265943
+-XLKEEP
+-XLMODE
+./xcelium.d/run.lnx8664.22.09.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/run.lnx8664.22.09.d/cds.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.22.09.d/hdl.var
+-XLNAME
+xrun
+-XLVERSION
+"TOOL:	xrun(64)	22.09-s001"

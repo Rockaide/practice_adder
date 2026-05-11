@@ -1,0 +1,9 @@
+define XMSIMRC	( /home/u32br/tools/cadence/installs/XCELIUM2209/tools/xcelium/files/xmsimrc, ~/.xmsimrc )
+define AMSRC	( /home/u32br/tools/cadence/installs/XCELIUM2209/tools/xcelium/files/amsrc, ~/.amsrc )
+include ./hdlrun.var
+define SNAPSHOT worklib.somador_top:sv
+DEFINE RUNMODEDEFAULT 1
+DEFINE LIB_MAP (  => worklib )
+DEFINE LIB_MAP ($LIB_MAP, + => worklib )
+define ELAB_SNAPSHOT
+define SNAPSHOT worklib.somador_top:sv

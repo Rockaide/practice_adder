@@ -1,0 +1,29 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2026 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[12:24:07.440193] Configured Lic search path (25.01-s002): 27001@200.132.35.25
+
+Version: 25.13-s071_1, built Mon Mar 09 06:44:48 PDT 2026
+Options: -abort_on_error -lic_startup Genus_Synthesis -lic_startup_options Genus_Physical_Opt -log genus_100MHz_worst -overwrite -files /home/ufsm00291/ufsm00291-lima202020189/projetos/somador/backend/synthesis/scripts/layout.tcl 
+Date:    Mon May 04 12:24:07 2026
+Host:    ecomp (x86_64 w/Linux 4.18.0-553.111.1.el8_10.x86_64) (6cores*24cpus*2physical cpus*Intel(R) Xeon(R) CPU E5645 @ 2.40GHz 12288KB) (73662632KB)
+PID:     1995583
+OS:      Rocky Linux 8.10 (Green Obsidian)
+
+Checking out license: Genus_Synthesis
+[12:24:07.136746] Periodic Lic check successful
+[12:24:07.661074] Feature usage summary:
+[12:24:07.661074] Genus_Synthesis  
+License checkout complete (0 seconds elapsed).
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Finished executable startup (10 seconds elapsed).
+
+Loading tool scripts...

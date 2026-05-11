@@ -1,0 +1,49 @@
+======================================================================
+
+Annotating SDF timing data:
+  Compiled SDF file:     /home/ufsm00291/ufsm00291-lima202020189/projetos/somador/backend/synthesis/deliverables/somador_worst_100_base/somador.sdf.X
+  Log file:              sdf.log
+  Backannotation scope:  :DUV
+  Configuration file:    
+  MTM control:           MAXIMUM
+  Scale factors:         1:1:1
+  Scale type:            FROM_MTM
+
+Time units: 1ps
+
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (REMOVAL (posedge RN) (posedge CK) (82)) of instance :DUV.\sum_temp_reg[8]  of module DFFRHQX8 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 26>.
+		$recovery (posedge RN, posedge CK, 0, notifier);
+		        |
+xmelab: *W,SDFNL1 (/home/tools/design_kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v,3383|10): Attempt to annotate a negative value to a 1 limit timing check in instance (:DUV.\sum_temp_reg[8] ), setting to 0 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 27>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (REMOVAL (posedge RN) (posedge CK) (82)) of instance :DUV.\sum_temp_reg[7]  of module DFFRHQX8 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 47>.
+		$recovery (posedge RN, posedge CK, 0, notifier);
+		        |
+xmelab: *W,SDFNL1 (/home/tools/design_kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v,3383|10): Attempt to annotate a negative value to a 1 limit timing check in instance (:DUV.\sum_temp_reg[7] ), setting to 0 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 48>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (REMOVAL (posedge RN) (posedge CK) (82)) of instance :DUV.\sum_temp_reg[6]  of module DFFRHQX8 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 85>.
+		$recovery (posedge RN, posedge CK, 0, notifier);
+		        |
+xmelab: *W,SDFNL1 (/home/tools/design_kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v,3383|10): Attempt to annotate a negative value to a 1 limit timing check in instance (:DUV.\sum_temp_reg[6] ), setting to 0 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 86>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (REMOVAL (posedge RN) (posedge CK) (82)) of instance :DUV.\sum_temp_reg[5]  of module DFFRHQX8 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 123>.
+		$recovery (posedge RN, posedge CK, 0, notifier);
+		        |
+xmelab: *W,SDFNL1 (/home/tools/design_kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v,3383|10): Attempt to annotate a negative value to a 1 limit timing check in instance (:DUV.\sum_temp_reg[5] ), setting to 0 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 124>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (REMOVAL (posedge RN) (posedge CK) (82)) of instance :DUV.\sum_temp_reg[4]  of module DFFRHQX8 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 161>.
+		$recovery (posedge RN, posedge CK, 0, notifier);
+		        |
+xmelab: *W,SDFNL1 (/home/tools/design_kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v,3383|10): Attempt to annotate a negative value to a 1 limit timing check in instance (:DUV.\sum_temp_reg[4] ), setting to 0 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 162>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (REMOVAL (posedge RN) (posedge CK) (82)) of instance :DUV.\sum_temp_reg[3]  of module DFFRHQX8 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 199>.
+		$recovery (posedge RN, posedge CK, 0, notifier);
+		        |
+xmelab: *W,SDFNL1 (/home/tools/design_kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v,3383|10): Attempt to annotate a negative value to a 1 limit timing check in instance (:DUV.\sum_temp_reg[3] ), setting to 0 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 200>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (REMOVAL (posedge RN) (posedge CK) (82)) of instance :DUV.\sum_temp_reg[2]  of module DFFRHQX8 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 237>.
+		$recovery (posedge RN, posedge CK, 0, notifier);
+		        |
+xmelab: *W,SDFNL1 (/home/tools/design_kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v,3383|10): Attempt to annotate a negative value to a 1 limit timing check in instance (:DUV.\sum_temp_reg[2] ), setting to 0 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 238>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (REMOVAL (posedge RN) (posedge CK) (82)) of instance :DUV.\sum_temp_reg[1]  of module DFFRHQX8 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 275>.
+		$recovery (posedge RN, posedge CK, 0, notifier);
+		        |
+xmelab: *W,SDFNL1 (/home/tools/design_kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v,3383|10): Attempt to annotate a negative value to a 1 limit timing check in instance (:DUV.\sum_temp_reg[1] ), setting to 0 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 276>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (REMOVAL (posedge RN) (posedge CK) (82)) of instance :DUV.\sum_temp_reg[0]  of module DFFRHQX8 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 313>.
+		$recovery (posedge RN, posedge CK, 0, notifier);
+		        |
+xmelab: *W,SDFNL1 (/home/tools/design_kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v,3383|10): Attempt to annotate a negative value to a 1 limit timing check in instance (:DUV.\sum_temp_reg[0] ), setting to 0 <../backend/synthesis/deliverables/somador_worst_100_base/somador.sdf, line 314>.

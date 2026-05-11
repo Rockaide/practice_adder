@@ -1,0 +1,28 @@
+xrun(64): 23.09-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s013: Started on Mar 30, 2026 at 10:53:42 -03
+xrun
+	-clean
+	-64bit
+	-v200x
+	-v93
+	-access +rwc
+	-makelib LIB_RTL
+	/home/ufsm00291/ufsm00291-lima202020189/projetos/somador/frontend/somador.vhd
+	/home/ufsm00291/ufsm00291-lima202020189/projetos/somador/frontend/Util_package.vhd
+	-endlib
+	-makelib LIB_TB
+	/home/ufsm00291/ufsm00291-lima202020189/projetos/somador/frontend/somador_tb.vhd
+	-endlib
+	-top LIB_TB.somador_tb
+	-reflib LIB_RTL
+xrun: *N,CLEAN: Removing existing directory ./xcelium.d.
+/home/ufsm00291/ufsm00291-lima202020189/projetos/somador/frontend/somador_tb.vhd:
+use work.Util_package.all;
+        |
+xmvhdl_p: *E,SELLIB (/home/ufsm00291/ufsm00291-lima202020189/projetos/somador/frontend/somador_tb.vhd,13|8): unit (UTIL_PACKAGE) not found in library (\LIB_TB\).
+architecture verification of somador_tb is  
+                                      |
+xmvhdl_p: *E,ENNOFN (/home/ufsm00291/ufsm00291-lima202020189/projetos/somador/frontend/somador_tb.vhd,22|38): Intermediate file for entity 'SOMADOR_TB' could not be loaded, entity may require re-analysis.
+	errors: 2, warnings: 0
+xrun: *E,VHLERR: Error during parsing VHDL file (status 1), exiting.
+TOOL:	xrun(64)	23.09-s013: Exiting on Mar 30, 2026 at 10:53:42 -03  (total: 00:00:00)

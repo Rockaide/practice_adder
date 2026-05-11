@@ -1,0 +1,604 @@
+$date
+    May  4, 2026  12:51:47
+$end
+$version
+    TOOL:	xmsim(64)	23.09-s013
+$end
+$timescale
+    10 ps
+$end
+
+$scope module somador_tb $end
+
+$scope module DUV $end
+$var wire      1 !    clk  $end
+$var wire      1 "    rst_n  $end
+$var wire      1 #    carry_i  $end
+$var wire      1 $    a_i [7] $end
+$var wire      1 %    a_i [6] $end
+$var wire      1 &    a_i [5] $end
+$var wire      1 '    a_i [4] $end
+$var wire      1 (    a_i [3] $end
+$var wire      1 )    a_i [2] $end
+$var wire      1 *    a_i [1] $end
+$var wire      1 +    a_i [0] $end
+$var wire      1 ,    b_i [7] $end
+$var wire      1 -    b_i [6] $end
+$var wire      1 .    b_i [5] $end
+$var wire      1 /    b_i [4] $end
+$var wire      1 0    b_i [3] $end
+$var wire      1 1    b_i [2] $end
+$var wire      1 2    b_i [1] $end
+$var wire      1 3    b_i [0] $end
+$var wire      1 4    carry_o  $end
+$var wire      1 5    sum_o [7] $end
+$var wire      1 6    sum_o [6] $end
+$var wire      1 7    sum_o [5] $end
+$var wire      1 8    sum_o [4] $end
+$var wire      1 9    sum_o [3] $end
+$var wire      1 :    sum_o [2] $end
+$var wire      1 ;    sum_o [1] $end
+$var wire      1 <    sum_o [0] $end
+$var wire      1 =    n_0  $end
+$var wire      1 >    n_1  $end
+$var wire      1 ?    n_2  $end
+$var wire      1 @    n_3  $end
+$var wire      1 A    n_4  $end
+$var wire      1 B    n_5  $end
+$var wire      1 C    n_6  $end
+$var wire      1 D    n_7  $end
+$var wire      1 E    n_8  $end
+$var wire      1 F    n_9  $end
+$var wire      1 G    n_10  $end
+$var wire      1 H    n_11  $end
+$var wire      1 I    n_12  $end
+$var wire      1 J    n_13  $end
+$var wire      1 K    n_14  $end
+$var wire      1 L    n_15  $end
+
+$scope module \sum_temp_reg[8]  $end
+$var wire      1 4    Q  $end
+$var wire      1 K    D  $end
+$var wire      1 "    RN  $end
+$var wire      1 !    CK  $end
+$var reg       1 M    notifier $end
+$var wire      1 K    delayed_D  $end
+$var wire      1 !    delayed_CK  $end
+$var wire      1 N    int_fwire_N30  $end
+$var wire      1 O    int_fwire_r  $end
+$var wire      1 P    xcr_0  $end
+$upscope $end
+
+
+$scope module \sum_temp_reg[7]  $end
+$var wire      1 5    Q  $end
+$var wire      1 L    D  $end
+$var wire      1 "    RN  $end
+$var wire      1 !    CK  $end
+$var reg       1 Q    notifier $end
+$var wire      1 L    delayed_D  $end
+$var wire      1 !    delayed_CK  $end
+$var wire      1 R    int_fwire_N30  $end
+$var wire      1 S    int_fwire_r  $end
+$var wire      1 T    xcr_0  $end
+$upscope $end
+
+
+$scope module g592__2398 $end
+$var wire      1 K    CO  $end
+$var wire      1 L    S  $end
+$var wire      1 $    A  $end
+$var wire      1 ,    B  $end
+$var wire      1 I    CI  $end
+$var wire      1 U    int_fwire_0  $end
+$var wire      1 V    int_fwire_1  $end
+$var wire      1 W    int_fwire_2  $end
+$upscope $end
+
+
+$scope module \sum_temp_reg[6]  $end
+$var wire      1 6    Q  $end
+$var wire      1 J    D  $end
+$var wire      1 "    RN  $end
+$var wire      1 !    CK  $end
+$var reg       1 X    notifier $end
+$var wire      1 J    delayed_D  $end
+$var wire      1 !    delayed_CK  $end
+$var wire      1 Y    int_fwire_N30  $end
+$var wire      1 Z    int_fwire_r  $end
+$var wire      1 [    xcr_0  $end
+$upscope $end
+
+
+$scope module g594__5107 $end
+$var wire      1 I    CO  $end
+$var wire      1 J    S  $end
+$var wire      1 %    A  $end
+$var wire      1 -    B  $end
+$var wire      1 G    CI  $end
+$var wire      1 \    int_fwire_0  $end
+$var wire      1 ]    int_fwire_1  $end
+$var wire      1 ^    int_fwire_2  $end
+$upscope $end
+
+
+$scope module \sum_temp_reg[5]  $end
+$var wire      1 7    Q  $end
+$var wire      1 H    D  $end
+$var wire      1 "    RN  $end
+$var wire      1 !    CK  $end
+$var reg       1 _    notifier $end
+$var wire      1 H    delayed_D  $end
+$var wire      1 !    delayed_CK  $end
+$var wire      1 `    int_fwire_N30  $end
+$var wire      1 a    int_fwire_r  $end
+$var wire      1 b    xcr_0  $end
+$upscope $end
+
+
+$scope module g596__6260 $end
+$var wire      1 G    CO  $end
+$var wire      1 H    S  $end
+$var wire      1 &    A  $end
+$var wire      1 .    B  $end
+$var wire      1 E    CI  $end
+$var wire      1 c    int_fwire_0  $end
+$var wire      1 d    int_fwire_1  $end
+$var wire      1 e    int_fwire_2  $end
+$upscope $end
+
+
+$scope module \sum_temp_reg[4]  $end
+$var wire      1 8    Q  $end
+$var wire      1 F    D  $end
+$var wire      1 "    RN  $end
+$var wire      1 !    CK  $end
+$var reg       1 f    notifier $end
+$var wire      1 F    delayed_D  $end
+$var wire      1 !    delayed_CK  $end
+$var wire      1 g    int_fwire_N30  $end
+$var wire      1 h    int_fwire_r  $end
+$var wire      1 i    xcr_0  $end
+$upscope $end
+
+
+$scope module g598__4319 $end
+$var wire      1 E    CO  $end
+$var wire      1 F    S  $end
+$var wire      1 '    A  $end
+$var wire      1 /    B  $end
+$var wire      1 C    CI  $end
+$var wire      1 j    int_fwire_0  $end
+$var wire      1 k    int_fwire_1  $end
+$var wire      1 l    int_fwire_2  $end
+$upscope $end
+
+
+$scope module \sum_temp_reg[3]  $end
+$var wire      1 9    Q  $end
+$var wire      1 D    D  $end
+$var wire      1 "    RN  $end
+$var wire      1 !    CK  $end
+$var reg       1 m    notifier $end
+$var wire      1 D    delayed_D  $end
+$var wire      1 !    delayed_CK  $end
+$var wire      1 n    int_fwire_N30  $end
+$var wire      1 o    int_fwire_r  $end
+$var wire      1 p    xcr_0  $end
+$upscope $end
+
+
+$scope module g600__8428 $end
+$var wire      1 C    CO  $end
+$var wire      1 D    S  $end
+$var wire      1 (    A  $end
+$var wire      1 0    B  $end
+$var wire      1 A    CI  $end
+$var wire      1 q    int_fwire_0  $end
+$var wire      1 r    int_fwire_1  $end
+$var wire      1 s    int_fwire_2  $end
+$upscope $end
+
+
+$scope module \sum_temp_reg[2]  $end
+$var wire      1 :    Q  $end
+$var wire      1 B    D  $end
+$var wire      1 "    RN  $end
+$var wire      1 !    CK  $end
+$var reg       1 t    notifier $end
+$var wire      1 B    delayed_D  $end
+$var wire      1 !    delayed_CK  $end
+$var wire      1 u    int_fwire_N30  $end
+$var wire      1 v    int_fwire_r  $end
+$var wire      1 w    xcr_0  $end
+$upscope $end
+
+
+$scope module g602__5526 $end
+$var wire      1 A    CO  $end
+$var wire      1 B    S  $end
+$var wire      1 )    A  $end
+$var wire      1 1    B  $end
+$var wire      1 ?    CI  $end
+$var wire      1 x    int_fwire_0  $end
+$var wire      1 y    int_fwire_1  $end
+$var wire      1 z    int_fwire_2  $end
+$upscope $end
+
+
+$scope module \sum_temp_reg[1]  $end
+$var wire      1 ;    Q  $end
+$var wire      1 @    D  $end
+$var wire      1 "    RN  $end
+$var wire      1 !    CK  $end
+$var reg       1 {    notifier $end
+$var wire      1 @    delayed_D  $end
+$var wire      1 !    delayed_CK  $end
+$var wire      1 |    int_fwire_N30  $end
+$var wire      1 }    int_fwire_r  $end
+$var wire      1 ~    xcr_0  $end
+$upscope $end
+
+
+$scope module g604__6783 $end
+$var wire      1 ?    CO  $end
+$var wire      1 @    S  $end
+$var wire      1 *    A  $end
+$var wire      1 2    B  $end
+$var wire      1 =    CI  $end
+$var wire      1 !!   int_fwire_0  $end
+$var wire      1 "!   int_fwire_1  $end
+$var wire      1 #!   int_fwire_2  $end
+$upscope $end
+
+
+$scope module \sum_temp_reg[0]  $end
+$var wire      1 <    Q  $end
+$var wire      1 >    D  $end
+$var wire      1 "    RN  $end
+$var wire      1 !    CK  $end
+$var reg       1 $!   notifier $end
+$var wire      1 >    delayed_D  $end
+$var wire      1 !    delayed_CK  $end
+$var wire      1 %!   int_fwire_N30  $end
+$var wire      1 &!   int_fwire_r  $end
+$var wire      1 '!   xcr_0  $end
+$upscope $end
+
+
+$scope module g606__3680 $end
+$var wire      1 =    CO  $end
+$var wire      1 >    S  $end
+$var wire      1 #    A  $end
+$var wire      1 +    B  $end
+$var wire      1 3    CI  $end
+$var wire      1 (!   int_fwire_0  $end
+$var wire      1 )!   int_fwire_1  $end
+$var wire      1 *!   int_fwire_2  $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+xM
+0N
+1O
+xP
+xQ
+0R
+1S
+xT
+0U
+0V
+0W
+xX
+0Y
+1Z
+x[
+0\
+0]
+0^
+x_
+0`
+1a
+xb
+0c
+0d
+0e
+xf
+0g
+1h
+xi
+0j
+0k
+0l
+xm
+0n
+1o
+xp
+0q
+0r
+0s
+xt
+0u
+1v
+xw
+0x
+0y
+0z
+x{
+0|
+1}
+x~
+0!!
+0"!
+0#!
+x$!
+0%!
+1&!
+x'!
+0(!
+0)!
+0*!
+$end
+#250
+1"
+0O
+0S
+0Z
+0a
+0h
+0o
+0v
+0}
+0&!
+#500
+1!
+1#
+1>
+#1000
+0!
+#1500
+1!
+1%!
+1<
+#2000
+0!
+#2500
+1!
+#3000
+0!
+#3500
+1!
+#4000
+0!
+#4500
+1!
+#5000
+0!
+#5500
+1!
+#6000
+0!
+#6500
+1!
+#7000
+0!
+#7500
+1!
+#8000
+0!
+#8500
+1!
+#9000
+0!
+#9500
+1!
+#10000
+0!
+#10500
+1!
+#11000
+0!
+#11500
+1!
+#12000
+0!
+#12500
+1!
+#13000
+0!
+#13500
+1!
+#14000
+0!
+#14500
+1!
+#15000
+0!
+#15500
+1!
+#16000
+0!
+#16500
+1!
+#17000
+0!
+#17500
+1!
+#18000
+0!
+#18500
+1!
+#19000
+0!
+#19500
+1!
+#20000
+0!
+#20500
+1!
+#21000
+0!
+#21500
+1!
+#22000
+0!
+#22500
+1!
+#23000
+0!
+#23500
+1!
+#24000
+0!
+#24500
+1!
+#25000
+0!
+#25500
+1!
+#26000
+0!
+#26500
+1!
+#27000
+0!
+#27500
+1!
+#28000
+0!
+#28500
+1!
+#29000
+0!
+#29500
+1!
+#30000
+0!
+#30500
+1!
+#31000
+0!
+#31500
+1!
+#32000
+0!
+#32500
+1!
+#33000
+0!
+#33500
+1!
+#34000
+0!
+#34500
+1!
+#35000
+0!
+#35500
+1!
+#36000
+0!
+#36500
+1!
+#37000
+0!
+#37500
+1!
+#38000
+0!
+#38500
+1!
+#39000
+0!
+#39500
+1!
+#40000
+0!
+#40500
+1!
+#41000
+0!
+#41500
+1!
+#42000
+0!
+#42500
+1!
+#43000
+0!
+#43500
+1!
+#44000
+0!
+#44500
+1!
+#45000
+0!
+#45500
+1!
+#46000
+0!
+#46500
+1!
+#47000
+0!
+#47500
+1!
+#48000
+0!
+#48500
+1!
+#49000
+0!
+#49500
+1!
+#50000

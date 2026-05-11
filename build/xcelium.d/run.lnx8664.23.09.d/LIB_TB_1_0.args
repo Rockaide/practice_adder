@@ -1,0 +1,16 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-RUNMODE
+-V200X
+-V93
+-UPDATE
+-CDSLIB
+./xcelium.d/run.lnx8664.23.09.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.23.09.d/hdlrun.var
+-work
+LIB_TB
+-messages
+/home/ufsm00291/ufsm00291-lima202020189/projetos/somador/frontend/somador_tb.vhd

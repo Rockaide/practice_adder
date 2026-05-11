@@ -1,0 +1,9 @@
+freq MHz,library,Stabilization Time
+10,worst,900 ps
+10,best,180 ps
+100,worst,900 ps
+100,best,180 ps
+500,worst,680 ps
+500,best,180 ps
+1000,worst,640 ps
+1000,best,180 ps

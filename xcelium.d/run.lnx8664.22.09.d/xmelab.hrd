@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-V200X
+
+somador_top
+-ACCESS
++rwc
+-COVERAGE
+u

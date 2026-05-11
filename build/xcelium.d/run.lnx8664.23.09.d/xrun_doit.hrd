@@ -1,0 +1,12 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-makelib
+LIB_RTL
+-endlib
+-makelib
+LIB_TB
+-endlib
+-xreflib
+LIB_RTL

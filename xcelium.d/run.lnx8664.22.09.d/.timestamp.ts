@@ -1,0 +1,10 @@
+1777047453 /home/u32br/rocca/projetos/somador/verification/somador_monitor.sv
+1777217599 /home/u32br/rocca/projetos/somador/verification/somador_cov.sv
+1777047430 /home/u32br/rocca/projetos/somador/verification/somador_driver.sv
+1777048587 /home/u32br/rocca/projetos/somador/verification/somador_if.sv
+1777046574 /home/u32br/rocca/projetos/somador/verification/somador_item.sv
+1777048308 /home/u32br/rocca/projetos/somador/verification/somador_env.sv
+1777047802 /home/u32br/rocca/projetos/somador/verification/somador_seq.sv
+1777048547 /home/u32br/rocca/projetos/somador/verification/somador_top.sv
+1777048539 /home/u32br/rocca/projetos/somador/verification/somador_agent.sv
+1777300600 /home/u32br/rocca/projetos/somador/verification/somador_test.sv
